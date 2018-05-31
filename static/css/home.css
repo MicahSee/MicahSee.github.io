@@ -1,0 +1,80 @@
+.banner {
+  background-image: linear-gradient(rgba(52, 73, 94, 0.75), rgba(52, 73, 94, 0.75)), url('https://www.ludwigcancerresearch.org/sites/default/files/styles/lab_main_image/public/media/lab-images/Ludwig_DeVal_Lab.jpg?itok=uFEhoQkH');
+  background-size: cover;
+  width: 100%;
+  height: 70%;
+  position: relative;
+
+}
+
+.navbar {
+  box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+}
+
+.banner-text {
+  width: 300px;
+}
+
+.banner .container {
+
+}
+/* .banner:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(52, 73, 94, 0.5);
+} */
+ .is-csci {
+   background-color: #30D5D9;
+   color: white;
+ }
+
+ .is-csci .title, .is-csci .subtitle {
+   color: white;
+ }
+
+.button-align {
+  width: 100%;
+  text-align: center;
+}
+
+.has-divider {
+  border-bottom: 8px solid #fafafa;
+}
+
+.has-bottom-shadow {
+  box-shadow: 0 1.5rem 1.5rem -1.25rem rgba(10,10,10,.05)
+}
+
+.has-top-shadow {
+  box-shadow: 0 -1.5rem 1.5rem -1.25rem rgba(10,10,10,.05)
+}
+
+.photo-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+.icon-container {
+  padding: 10px 0;
+}
+
+.has-tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
