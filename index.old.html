@@ -7,7 +7,7 @@
   <nav class="navbar is-fixed-top">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="index.html">
+        <a class="navbar-item" href="#">
           <img src="static/img/logo.png" />
         </a>
 
@@ -22,14 +22,14 @@
         <!-- is-active class -->
         <div class="navbar-end">
           <div class="navbar-item has-dropdown is-hoverable" href="#">
-            <a class="navbar-link" href="products.html">
+            <a class="navbar-link">
               Products
             </a>
             <div class="navbar-dropdown">
               <a class="navbar-item">
                 Tubes
               </a>
-              <a class="navbar-item" href="shaker.html">
+              <a class="navbar-item">
                 Shaker
               </a>
               <a class="navbar-item">
@@ -42,8 +42,11 @@
               More Options
             </a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="contact.html">
-                Contact Us
+              <a class="navbar-item">
+                Option 1
+              </a>
+              <a class="navbar-item">
+                Option 2
               </a>
             </div>
           </div>
@@ -83,16 +86,52 @@
     </div>
   </section>
 
+  <section class="section has-text-centered section-padding has-bottom-shadow">
+    <div class="container">
+      <h1 class="title">Our Ecosystem</h1>
+      <div class="tile is-ancestor">
+
+        <div class="tile is-parent is-vertical">
+          <div class="tile is-child notification">
+            Shaker
+          </div>
+          <div class="tile is-child notification">
+            Consumables
+          </div>
+        </div>
+
+        <div class="tile is-parent is-vertical" style="background-color: ">
+          <div class="tile is-child has-tags">
+            <div class="tags has-addons">
+              <span class="tag">Gas Exchange</span>
+              <span class="tag is-info">CO2 and H2O</span>
+            </div>
+          </div>
+          <div class="title is-child">
+            <i class="fas fa-arrows-alt-h" style="color: gray"></i>
+          </div>
+          <div class="tile is-child has-tags">
+            <div class="tags has-addons">
+              <span class="tag">Environment</span>
+              <span class="tag is-danger">Temp Controlled</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tile is-parent">
+          <div class="tile is-child notification" style="display: flex; align-items: center; justify-content: center">
+            Better cell cultures
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <section class="hero has-text-centered section-padding">
     <div class="hero-body">
       <div class="container">
-        <div class="subtitle is-3 has-underline">What makes us different?
-          <div style="display: flex; justify-content: center;">
-            <hr style="width: 150px; height: 2px"/>
-          </div>
-        </div>
-        <div class="divider">
-        </div>
+        <p class="title is-spaced">What makes us different?</p>
         <nav class="level">
           <div class="level-item">
             <div>
@@ -128,57 +167,7 @@
 
   <section class="hero has-text-centered section-padding is-light">
     <div class="hero-body">
-      <div class="container">
-        <h1 class="subtitle is-3">Our Ecosystem</h1>
-        <div class="tile is-ancestor">
-
-          <div class="tile is-parent is-vertical">
-            <div class="tile is-child notification outlined">
-              Shaker
-            </div>
-            <div class="tile is-child notification outlined">
-              Consumables
-            </div>
-          </div>
-
-          <div class="tile is-parent is-vertical" style="background-color: ">
-            <div class="tile is-child has-tags">
-              <div class="tags has-addons">
-                <span class="tag outlined" style="border-right: none;">Gas Exchange</span>
-                <span class="tag is-info">CO2 and H2O</span>
-              </div>
-            </div>
-            <div class="title is-child">
-              <i class="fas fa-arrows-alt-h" style="color: gray"></i>
-            </div>
-            <div class="tile is-child has-tags">
-              <div class="tags has-addons">
-                <span class="tag outlined" style="border-right: none;">Environment</span>
-                <span class="tag is-danger">Temp Controlled</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="tile is-parent">
-            <div class="tile is-child notification outlined" style="display: flex; align-items: center; justify-content: center">
-              Better cell cultures
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="hero has-text-centered section-padding">
-    <div class="hero-body">
-    <h1 class="subtitle is-3 has-underline">
-    Our Products
-    <div style="display: flex; justify-content: center;">
-      <hr style="width: 125px; height: 2px"/>
-    </div>
-    </h1>
-    <div class="divider"></div>
+    <h1 class="title">Our Products</h1>
     <div class="container">
       <div class="columns">
         <div class="column">
@@ -238,38 +227,18 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <img src="static/img/logo.png" id="footer-logo"/>
-        </div>
-        <div class="column">
           <h1 class="title is-6">Actions</h1>
           <p>
-            <a href="#top">Back to the Top</a>
+            <a src="#">Buy Consumables</a>
           </p>
         </div>
         <div class="column">
           <h1 class="title is-6">Pages</h1>
           <p>
-            <a href="index.html">Home</a>
+            <a src="#">Products</a>
           </p>
-          <p>
-            <a href="products.html">Products</a>
-          </p>
-          <p>
-            <a href="contact.html">Contact Us</a>
-          </p>
-        </div>
-        <div class="column">
-          <h1 class="title is-6">Connect With Us</h1>
-          <div id="social-media-icons">
-            <a href="" class="fab fa-twitter-square"></a>
-            <a href="" class="fab fa-facebook-square"></a>
-            <a href="" class="fab fa-google-plus-square"></a>
-          </div>
         </div>
       </div>
-      <section class="section">
-
-      </section>
       <div class="content has-text-centered">
         <p>
           Copyright 2018 Cellware Scientific

@@ -1,0 +1,185 @@
+ <head>
+  <script src="static/js/all.js"></script>
+  <link rel="stylesheet" href="static/css/bulma.css" />
+  <link rel="stylesheet" href="static/css/home.css" />
+  <link rel="stylesheet" href="statics/css/slideshow.css" />
+</head>
+<body class="has-navbar-fixed-top">
+  <nav class="navbar is-fixed-top">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="static/img/logo.png" />
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="navbar-menu">
+        <!-- is-active class -->
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable" href="#">
+            <a class="navbar-link">
+              Products
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                Tubes
+              </a>
+              <a class="navbar-item">
+                Shaker
+              </a>
+              <a class="navbar-item">
+                Flask
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              More Options
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                Option 1
+              </a>
+              <a class="navbar-item">
+                Option 2
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item">
+            <a class="button is-light" href="#">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- <div class="columns is-gapless">
+      <div class="column is-two-thirds" class="product-image">
+        <img src="static/img/Shaker.jpg"/>
+      </div>
+      <div class="column is-one-third" class="product-description" style="background: hsl(0, 0%, 96%)">
+        <div class="product-description-pad">
+          <p class="is-3 title">
+            Shaker
+          </p>
+          <p class="is-6 subtitle">
+            Main Equipment
+          </p>
+          <ul>
+             <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+             <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+             <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+    <div class="product-container">
+      <div class="product-img">
+        <div class="slide">
+          <img src="static/img/Shaker.jpg"/>
+        </div>
+        <div class="slide">
+          <img src="static/img/Shaker2.jpg"/>
+        </div>
+        <a class="slide-control" onclick="nextSlide(-1)">&#10094;</a>
+        <a class="slide-control right" onclick="nextSlide(1)">&#10095;</a>
+      </div>
+      <div class="product-description">
+        <p class="is-3 title">
+          Shaker
+        </p>
+        <p class="is-6 subtitle">
+          Main Equipment
+        </p>
+        <ul>
+           <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+           <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+           <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <div class="table-container">
+          <table class="table is-fullwidth is-hoverable">
+            <thead>
+              <tr>
+                <th>Description</th>
+                <th>Size</th>
+                <th>Volume</th>
+                <th>Sterility</th>
+                <th>Packaging</th>
+                <th>Unit</th>
+                <th>
+                  Order
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Graduated Tube with Clear Flip Cap</td>
+                <td>17 mm x 100mm</td>
+                <td>14mL</td>
+                <td>Sterile</td>
+                <td>25/Bag</td>
+                <td>Case of 500</td>
+                <td>
+                  <button class="button is-info">Add to Cart</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Graduated Tube with Blue Flip Cap</td>
+                <td>17 mm x 100mm</td>
+                <td>14mL</td>
+                <td>Sterile</td>
+                <td>25/Bag</td>
+                <td>Case of 500</td>
+                <td>
+                  <button class="button is-info">Add to Cart</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <h1 class="title is-6">Actions</h1>
+          <p>
+            <a src="#">Buy Consumables</a>
+          </p>
+        </div>
+        <div class="column">
+          <h1 class="title is-6">Pages</h1>
+          <p>
+            <a src="#">Products</a>
+          </p>
+        </div>
+      </div>
+      <div class="content has-text-centered">
+        <p>
+          Copyright 2018 Cellware Scientific
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="static/js/jquery/jquery.min.js"></script>
+  <script src="static/js/home.js"></script>
+  <script src="static/js/slideshow.js"></script>
+</body>
